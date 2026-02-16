@@ -27,7 +27,7 @@ When a login is needed, the skill will detect the auth state and guide you throu
 ### Via Clawhub (recommended)
 
 ```bash
-clawhub install openclaw-goodreads-skill
+clawhub install goodreads
 ```
 
 ### Manual Installation
@@ -35,7 +35,7 @@ clawhub install openclaw-goodreads-skill
 Clone this repository into your Openclaw skills directory:
 
 ```bash
-git clone https://github.com/your-username/openclaw-goodreads-skill.git ~/.openclaw/skills/goodreads
+git clone https://github.com/surajssd/openclaw-goodreads-skill.git ~/.openclaw/skills/goodreads
 ```
 
 Or symlink from a local clone:
@@ -48,10 +48,46 @@ ln -s "$(pwd)/goodreads" ~/.openclaw/skills/goodreads
 ### Verify Installation
 
 ```bash
-openclaw skills list        # Should show "goodreads" in the list
+openclaw skills list            # Should show "goodreads" in the list
 openclaw skills info goodreads  # Show skill details
-openclaw skills check       # Validate skill structure
+openclaw skills check           # Validate skill structure
 ```
+
+## Browser Setup
+
+This skill requires a browser configured in Openclaw. We recommend [Brave Browser](https://brave.com).
+
+### 1. Install Brave Browser
+
+Download and install Brave from [brave.com/download](https://brave.com/download).
+
+### 2. Configure Openclaw
+
+Add the browser configuration to `~/.openclaw/openclaw.json`:
+
+**macOS:**
+
+```json
+{
+  "browser": {
+    "executablePath": "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
+    "defaultProfile": "openclaw"
+  }
+}
+```
+
+**Linux:**
+
+```json
+{
+  "browser": {
+    "executablePath": "/usr/bin/brave-browser",
+    "defaultProfile": "openclaw"
+  }
+}
+```
+
+For more details on browser configuration, see the [Openclaw Browser Tool documentation](https://docs.openclaw.ai/tools/browser).
 
 ## Usage
 
