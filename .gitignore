@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Claude Code
+.claude/settings.local.json
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.bak
+*.orig
+
+# Node (in case any tooling is added later)
+node_modules/
