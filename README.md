@@ -139,6 +139,10 @@ Since Goodreads can change its page structure at any time, contributions to keep
 3. Update `references/SELECTORS.md` if page structure changed
 4. Update `references/WORKFLOWS.md` if interaction flows changed
 
+## Disclaimer
+
+This project is not affiliated with, endorsed by, or sponsored by Goodreads or Amazon. Goodreads is a trademark of Amazon.com, Inc. or its affiliates. This skill interacts with the publicly accessible Goodreads website through browser automation.
+
 ## License
 
 MIT
