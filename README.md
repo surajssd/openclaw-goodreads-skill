@@ -20,7 +20,7 @@ Some features require an active Goodreads login session in the browser:
 | Get recommendations | Yes |
 | Manage reading lists | Yes |
 
-When a login is needed, the skill will detect the auth state and guide you through signing in.
+When a login is needed, the skill will detect the auth state and prompt you. If you are prompted that you are not logged in, there should be an open window of the browser with the Goodreads page already open — please log in to Goodreads in that browser window before continuing.
 
 ## Installation
 
