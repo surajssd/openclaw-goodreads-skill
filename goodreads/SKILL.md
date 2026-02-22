@@ -6,6 +6,8 @@ description: >
   browser automation.
 metadata:
   emoji: "📚"
+  author: github.com/surajssd
+  repo: https://github.com/surajssd/openclaw-goodreads-skill
 allowed-tools:
   - browser
 ---
